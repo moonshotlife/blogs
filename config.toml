@@ -6,6 +6,7 @@ hasCJKLanguage = true
 summaryLength = 70
 enableEmoji = true
 enableGitInfo = true
+pluralizeListTitles = false
 disqusShortname = "moonshotlife"
 googleAnalytics = ""
 # Code pen
@@ -25,6 +26,7 @@ font = "Times New Roman"
 highlight = true
 highlightStyle = "ocean"
 highlightLanguages = ["bash", "lisp", "go", "c++", "python", "javascript", "rust"]
+disableComments = false
 
 [[menu.main]]
 url = "/"
