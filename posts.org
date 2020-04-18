@@ -1,0 +1,22 @@
+#+HUGO_BASE_DIR: ~/ws/hugo/moonshotlife
+#+HUGO_AUTO_SET_LASTMOD: t
+#+TAGS: @Money(m) @Tech(t) @Misc(o) emacs options forex stocks strategy daytrading investing retirement
+
+* About                                                              :@About:
+  :PROPERTIES:
+  :EXPORT_HUGO_SECTION: .
+  :EXPORT_FILE_NAME: about
+  :END:
+  「経済的自立を達成し会社員という束縛からの開放」というMoonshotな夢を追いかけるblogです。
+
+* Tech                                                                :@Tech:
+
+** Hugo and Ox-Hugo                                                   :emacs:
+   :PROPERTIES:
+   :EXPORT_HUGO_SECTION: tech
+   :EXPORT_FILE_NAME: hugo-and-ox-hugo
+   :END:
+   blogを書こうと思ってはてなブログとかにも登録したけど、いざ書こうと思うとサイ
+   トに行ってログインして、、となってめんどくさくてやはり挫折。でもやはり思った
+   ことをbraindumpするのはいろいろ役に立つのでなんとかしたいと思い、Hugoと
+   Ox-Hugoでまた挑戦してみることにした。

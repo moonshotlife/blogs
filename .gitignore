@@ -1,1 +1,6 @@
-/themes/**
+\#*\#
+*~
+.\#*
+/public/**
+!/public/.gitkeep
+/resources/**
