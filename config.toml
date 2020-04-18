@@ -1,4 +1,4 @@
-baseURL = "http://example.com/"
+baseURL = "https://moonshotlife.netlify.app/"
 title = "Moonshot Life"
 theme = "minimal"
 languageCode = "ja"
