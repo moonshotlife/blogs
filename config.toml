@@ -13,11 +13,10 @@ googleAnalytics = ""
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
-copyright = "Copyright © 2020, Moonshot Life; all rights reserved."
-
 [params]
 author = "Moonshot Life"
 description = ""
+copyright = "Copyright © 2020, Moonshot Life; all rights reserved."
 githubUsername = "#"
 accent = "#808080"
 showBorder = true
@@ -25,7 +24,7 @@ backgroundColor = "#fcfcfc"
 font = "Times New Roman"
 highlight = true
 highlightStyle = "ocean"
-highlightLanguages = ["bash", "lisp", "go", "c++", "python", "javascript", "rust"]
+highlightLanguages = ["bash", "cpp", "python", "go"]
 disableComments = false
 
 [[menu.main]]
