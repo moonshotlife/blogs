@@ -1,5 +1,6 @@
 #+HUGO_BASE_DIR: ~/ws/hugo/moonshotlife
 #+HUGO_AUTO_SET_LASTMOD: t
+#+STARTUP: logdone
 #+TAGS: @Money(m) @Tech(t) @Misc(o) emacs options forex stocks strategy daytrading investing retirement
 
 * About                                                              :@About:
@@ -17,3 +18,47 @@
    :EXPORT_FILE_NAME: hugo-and-ox-hugo
    :END:
    blogを書こうと思ってはてなブログとかにも登録したけど、いざ書こうと思うとサイトに行ってログインして、、となってめんどくさくてやはり挫折。でもやはり思ったことをbraindumpするのはいろいろ役に立つのでなんとかしたいと思い、HugoとOx-Hugoでまた挑戦してみることにした。
+* Money                                                              :@Money:
+  :PROPERTIES:
+  :EXPORT_HUGO_SECTION: money
+  :END:
+
+** DONE After all of the earnings
+   CLOSED: [2020-04-28 Tue 23:30]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: after-all-of-the-earnings
+   :END:
+   仕事が忙しくてこのところマーケットを見てる時間がないがやる気はある。コロナのせいで周りで解雇の話を聞くと、会社に頼らず生きていく術を見つけないといけないと思う。
+
+   今日はSPYが$291まで上昇したが、最後は$285.77でcloseした。現在まではQ1 earnings reportが壊滅的ではないので株価は比較的安定しているが、3ヶ月後のQ2はQ1と比較するとかなりのダメージになるだろう。そういう観点からは、Q2 earnings reportの時期をターゲットにしてshortすればいいような気がするが、短期的にはまだ上昇しそうなのでどこで仕掛けるか予めちゃんと計画を立てておかないと。
+
+   気になるのはUSDJPYである。22日からずっと下降しており、今や106.55円である。日米の金利差が縮まったことでドル安(円高)になるのはある意味理にかなっているのだが、３月にコロナの影響でドル建ての負債返済のためにドル買いが起きてドル高になったので素直にこのまま円高傾向になるのかは読めない。
+
+** Braindump for the next strategy
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: braindump-for-the-next-strategy
+   :END:
+
+  とりあえず今後の投資戦略を考える上で思いついたトピックを書き出してみる。
+
+   - Oilの将来
+   - 為替は米国債利回り低下や景気刺激対策で大量のドルが市場に流れると普通ドル安傾向になると思われるが、ドル建て負債返済によるドル買いとのバランスはどうなっていくのか。
+   - 株式市場は方向性が見えないから、オプションのIVから利益を得ることができるか。
+   - この先の下落相場に備えて手持ちのETFとかは一旦cash outしたほうがいいのか?
+   - 稼ぐには、とどのつまりはEdgeをどうやって見つけるか。risk:rewardをどうするか。(optionsの本は1:10って書いてあったけどそんな大きなgap必要?)
+   - 今までmarketをmonitorしてきた経験から何かedgeとなるべきpatternを見つけられないか?
+   - positive factors
+     - more good neews on covid-19
+     - Fed's infinite QE
+   - negative factors
+     - bad earnings reports
+     - wave of bankrupt coming
+     - interest rate being 0%
+   - who is driving market?
+     - AI?
+     - market maker?
+   - anything for long term investment?
+     - dividend focused
+   - unemployment rate (monthly) and initial unemployment insurance claims (weekly).
+     - 従業員はCARES Actである程度救済されるけど、経営者は?
+     - セクタごとに会社の倒産率、自己資本比率などを調べることによりセクタの将来を予測できないか
