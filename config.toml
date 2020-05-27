@@ -8,7 +8,7 @@ enableEmoji = true
 enableGitInfo = true
 pluralizeListTitles = false
 disqusShortname = "moonshotlife"
-googleAnalytics = ""
+googleAnalytics = "UA-167776351-1"
 # Code pen
 pygmentsCodeFences = true
 pygmentsUseClasses = true
