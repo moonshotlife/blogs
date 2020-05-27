@@ -10,18 +10,47 @@
   :END:
   「経済的自立を達成し会社員という束縛からの開放」というMoonshotな夢を追いかけるblogです。
 
+* Misc                                                                :@Misc:
+  :PROPERTIES:
+  :EXPORT_HUGO_SECTION: misc
+  :END:
+
+** アーリーリタイア、セミリタイア、FIRE
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: surfing-early-retirement-blogs
+   :END:
+   
+   目標は2、3年後に会社員をやめて個人事業主としてトレーディングbotやシステムの開発に没頭したい。週末に40代、50代でリタイアした人のブログを眺めてみた。リタイアすると健康保険がびっくりするぐらい高くなるとか、国民年金免除の方がいいのでは、などという有益な情報が得られたが、自分と似たような属性の人がいなくてちょっとがっかり。リタイア時は当方、
+
+   - 5人家族
+   - 東京都内(目黒区)に在住(子供の通学関係で妻が強く希望するだろうから)
+   - 子供の学費が年数百万かかるのが8-10年続きそう
+   - 妻は専業主婦
+   - 借金ないけど持ち家もない
+   - 資産の半分以上は個別株なのだが配当がほとんどない(ので配当生活は無理)
+
+のようなリタイアするにはかなり不利な属性である。やはり会社を辞める前に住宅ローン組んで家を買ったほうがいいんだろうなぁ。悩ましいところである。
+
 * Tech                                                                :@Tech:
+  :PROPERTIES:
+  :EXPORT_HUGO_SECTION: tech
+  :END:
 
 ** Hugo and Ox-Hugo                                                   :emacs:
    :PROPERTIES:
-   :EXPORT_HUGO_SECTION: tech
    :EXPORT_FILE_NAME: hugo-and-ox-hugo
    :END:
    blogを書こうと思ってはてなブログとかにも登録したけど、いざ書こうと思うとサイトに行ってログインして、、となってめんどくさくてやはり挫折。でもやはり思ったことをbraindumpするのはいろいろ役に立つのでなんとかしたいと思い、HugoとOx-Hugoでまた挑戦してみることにした。
+
 * Money                                                              :@Money:
   :PROPERTIES:
   :EXPORT_HUGO_SECTION: money
   :END:
+
+** TODO Probability of Profit
+
+   
+
 
 ** DONE 売買プランと戦術
    CLOSED: [2020-05-13 Wed 00:25]
