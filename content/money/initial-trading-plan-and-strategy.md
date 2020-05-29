@@ -2,7 +2,8 @@
 title = "売買プランと戦術"
 author = ["gram"]
 date = 2020-05-13T00:25:00-07:00
-lastmod = 2020-05-13T00:25:46-07:00
+lastmod = 2020-05-28T23:17:25-07:00
+tags = ["strategy"]
 categories = ["Money"]
 draft = false
 +++

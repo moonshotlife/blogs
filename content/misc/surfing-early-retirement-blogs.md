@@ -1,7 +1,8 @@
 +++
 title = "アーリーリタイア、セミリタイア、FIRE"
 author = ["gram"]
-lastmod = 2020-05-27T00:48:37-07:00
+lastmod = 2020-05-28T23:17:25-07:00
+tags = ["retirement"]
 categories = ["Misc"]
 draft = false
 +++

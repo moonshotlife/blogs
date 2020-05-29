@@ -2,7 +2,8 @@
 title = "Junk bond strategy"
 author = ["gram"]
 date = 2020-05-02T00:47:00-07:00
-lastmod = 2020-05-02T00:48:14-07:00
+lastmod = 2020-05-28T23:17:25-07:00
+tags = ["strategy"]
 categories = ["Money"]
 draft = false
 +++

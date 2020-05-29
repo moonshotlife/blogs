@@ -2,7 +2,7 @@
 title = "After all of the earnings"
 author = ["gram"]
 date = 2020-04-28T23:30:00-07:00
-lastmod = 2020-04-28T23:30:51-07:00
+lastmod = 2020-05-28T23:17:26-07:00
 categories = ["Money"]
 draft = false
 +++

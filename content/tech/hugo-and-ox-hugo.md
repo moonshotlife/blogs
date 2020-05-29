@@ -1,7 +1,7 @@
 +++
 title = "Hugo and Ox-Hugo"
 author = ["gram"]
-lastmod = 2020-04-18T16:33:05-07:00
+lastmod = 2020-05-28T23:17:25-07:00
 tags = ["emacs"]
 categories = ["Tech"]
 draft = false

@@ -1,7 +1,9 @@
 +++
 title = "Braindump for the next strategy"
 author = ["gram"]
-lastmod = 2020-04-19T23:02:23-07:00
+date = 2020-04-19T23:02:00-07:00
+lastmod = 2020-05-28T23:21:27-07:00
+tags = ["strategy"]
 categories = ["Money"]
 draft = false
 +++

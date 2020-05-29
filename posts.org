@@ -1,7 +1,8 @@
 #+HUGO_BASE_DIR: ~/ws/hugo/moonshotlife
 #+HUGO_AUTO_SET_LASTMOD: t
 #+STARTUP: logdone
-#+TAGS: @Money(m) @Tech(t) @Misc(o) emacs options forex stocks strategy daytrading investing retirement
+#+TAGS: @Money(m) @Tech(t) @Misc(o)
+#+TAGS: emacs options forex stocks strategy trading investing market retirement
 
 * About                                                              :@About:
   :PROPERTIES:
@@ -15,12 +16,12 @@
   :EXPORT_HUGO_SECTION: misc
   :END:
 
-** アーリーリタイア、セミリタイア、FIRE
+** アーリーリタイア、セミリタイア、FIRE                          :retirement:
    :PROPERTIES:
    :EXPORT_FILE_NAME: surfing-early-retirement-blogs
    :END:
-   
-   目標は2、3年後に会社員をやめて個人事業主としてトレーディングbotやシステムの開発に没頭したい。週末に40代、50代でリタイアした人のブログを眺めてみた。リタイアすると健康保険がびっくりするぐらい高くなるとか、国民年金免除の方がいいのでは、などという有益な情報が得られたが、自分と似たような属性の人がいなくてちょっとがっかり。リタイア時は当方、
+    
+  目標は2、3年後に会社員をやめて個人事業主としてトレーディングbotやシステムの開発に没頭したい。週末に40代、50代でリタイアした人のブログを眺めてみた。リタイアすると健康保険がびっくりするぐらい高くなるとか、国民年金免除の方がいいのでは、などという有益な情報が得られたが、自分と似たような属性の人がいなくてちょっとがっかり。リタイア時は当方、
 
    - 5人家族
    - 東京都内(目黒区)に在住(子供の通学関係で妻が強く希望するだろうから)
@@ -47,12 +48,37 @@
   :EXPORT_HUGO_SECTION: money
   :END:
 
-** TODO Probability of Profit
+** DONE Probability of Profit                                       :options:
+   CLOSED: [2020-05-28 Thu 23:08]
+   :PROPERTIES:
+   :EXPORT_FILE_NAME: probability-of-profit
+   :END:
 
-   
+   オプションはexpiration dateのときにIMTになる確率(Probability of Profit, or POP)を統計学的に求めることができるので、OTMのオプションを売ることにより50%の確率より有利な確率で利益を得ることが期待できる。ただしOTMなので確率が上がるに従って利益幅は小さくなる。大数の法則(The law of large numbers)より、高確率のトレードを数多くこなすことにより確率50%前後しかない株式(極論すると上がるか下がるか)よりリスクを抑えて利益を上げることが期待できる。
+
+   と、ここまではTastytradeやOptions Alphaの受け売りであるが、実際の確率については根拠をあげて詳しく説明してくれるページがあまり見つからなかった。deltaがPOPであるとか、spreadのときは1 - credit (strike widthが$1のとき)であるとか、さらっと書いてあるだけ。deltaで近似できることについては、Tastytradeの[[https://www.tastytrade.com/tt/shows/the-skinny-on-options-math/episodes/probability-of-profit-08-06-2015][このセグメント]]が数式を交えて説明していてなるほどと納得した。
+
+   vertical spreadのPOPについては、自分で考えてみた。Strike width wのcreditがcのとき、POP pは
+
+   - max profit = c
+   - max loss = w - c
+ 
+   であるので、
+
+   \[c * p - (w - c) * (1 - p) >= 0\]
+
+   のpを求めればいい。数式を解いていくと、
+
+   \[c * p - (w - w * p - c + c * p) >= 0\]
+   \[c * p - w + w * p + c - c * p >= 0\]
+   \[p * w - w + c >= 0\]
+   \[p >= (w - c) / w\]
+   となる。合ってるかな〜。
+
+   でも、オプション価格(premium)って絶えず変わるから、確率ってあくまでopen時の確率に過ぎない。だからopen時にPOPが80%あったとしても、credit価格の推移をちゃんとチェックし続けないとってことだ。
 
 
-** DONE 売買プランと戦術
+** DONE 売買プランと戦術                                           :strategy:
    CLOSED: [2020-05-13 Wed 00:25]
    :PROPERTIES:
    :EXPORT_FILE_NAME: initial-trading-plan-and-strategy
@@ -72,7 +98,7 @@
    - 50% max profitをターゲットにclose
    - 少なくともexpirationの1週間前にはclose
 
-** DONE オプショントレード修行前夜
+** DONE オプショントレード修行前夜                                  :options:
    CLOSED: [2020-05-08 Fri 01:23]
    :PROPERTIES:
    :EXPORT_FILE_NAME: the-eve-of-options-trading-training
@@ -86,7 +112,7 @@
 
    実際のトレード戦略についてはTaastytradeが大変参考になった。これについては改めて記事にしたい。さて、明日(もう今日か)価値が消滅するオプションをしっかり見て、今後軽率なトレードをしないように心に刻み込もう。
 
-** DONE オプショントレード普及協会
+** DONE オプショントレード普及協会                                  :options:
    CLOSED: [2020-05-02 Sat 00:47]
    :PROPERTIES:
    :EXPORT_FILE_NAME: option-trade-fukyu-kyokai
@@ -95,7 +121,7 @@
    オプショントレード普及協会のYouTube動画をいくつか観た。月末月始めに日経VIが20以下になったら機械的にプットロングというのは面白かったが、ボラがまだ高い今はまだ無理な戦略か。今ぐらいの中途半端なボラのときは小銭稼ぎのコールショートの方がよさげだが、Naked売りは精神的に無理なのでコールクレジットスプレッドになるのか。プットデビットスプレッドはコスト的に妥当なのかいまだよくわからん。オプションチェインもろくに見てないので、時間を割いてまずはそこらへんの経験を積まないといけないな。
 
    
-** DONE Junk bond strategy
+** DONE Junk bond strategy                                         :strategy:
    CLOSED: [2020-05-02 Sat 00:47]
    :PROPERTIES:
    :EXPORT_FILE_NAME: junk-bond-strategy
@@ -119,7 +145,8 @@
 
    気になるのはUSDJPYである。22日からずっと下降しており、今や106.55円である。日米の金利差が縮まったことでドル安(円高)になるのはある意味理にかなっているのだが、３月にコロナの影響でドル建ての負債返済のためにドル買いが起きてドル高になったので素直にこのまま円高傾向になるのかは読めない。
 
-** Braindump for the next strategy
+** DONE Braindump for the next strategy                            :strategy:
+   CLOSED: [2020-04-19 Sun 23:02]
    :PROPERTIES:
    :EXPORT_FILE_NAME: braindump-for-the-next-strategy
    :END:

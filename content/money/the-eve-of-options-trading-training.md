@@ -2,7 +2,8 @@
 title = "オプショントレード修行前夜"
 author = ["gram"]
 date = 2020-05-08T01:23:00-07:00
-lastmod = 2020-05-08T01:26:26-07:00
+lastmod = 2020-05-28T23:17:25-07:00
+tags = ["options"]
 categories = ["Money"]
 draft = false
 +++

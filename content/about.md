@@ -1,7 +1,7 @@
 +++
 title = "About"
 author = ["gram"]
-lastmod = 2020-04-18T14:04:46-07:00
+lastmod = 2020-05-28T23:17:25-07:00
 categories = ["About"]
 draft = false
 +++
